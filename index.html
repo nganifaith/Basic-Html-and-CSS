@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Simple survey Form</h1>
+    <div class="mainSection">
+        <p>Let us know how you view Computer Science As a career option</p>
+        <form action="">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="enter your email">
+            </div>
+            <div>
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="your age">
+            </div>
+            <div >
+                <label for="role">What option best describe your current role?</label>
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="fulltime">Fulltime</option>
+                    <option value="parttime">Parttime</option>
+                    <option value="none">Umemploye</option>
+                </select>
+            </div>
+            <div>
+                <label>How likely will you recommend CS to a friend?</label>
+                <div class='recommend'>
+                    <label>
+                        <input type="radio" name='rate' value='likely'> Most likely
+                    </label>
+                    <label>
+                        <input type="radio" name='rate' value='maybe'>likely
+                    </label>
+                    <label>
+                        <input type="radio" name='rate' value='nope'> Nope
+                    </label>
+                </div>
+            </div>
+            <div>
+                <label for="role">What do you like about CS?</label>
+                <select name="role" id="role">
+                    <option value="create">I can create stuff and see them been used in my environment</option>
+                    <option value="freedom">I have the ability to work from any where</option>
+                    <option value="smart">Makes me smarter than most of my peers</option>
+                    <option value="Hobby">Just find it fun to build around with things</option>
+                </select>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

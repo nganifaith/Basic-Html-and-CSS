@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(169 215 209);
+    padding: 0px 10px 0px 10px;
+}
+h1{
+    text-align: center;
+}
+
+.mainSection{
+    background-color: #ffffffc9;
+    display: block;
+    padding: 15px;
+}
+
+.mainSection p{
+    text-align: center;
+}
+
+form > div{
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+     
+     
+}
+
+form > div > label{
+    width: 40%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+form > div > input{
+    width: 25%;
+    text-align: justify;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+form > div > select{
+    width: 10%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 1px;    
+}
+
+.recommend label{
+    display: block;
+}
